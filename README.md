@@ -1,4 +1,33 @@
-# sky-remote-cli
+# Summary
+
+This project is still under development.
+
+This project is a fully documented (for basic user easy install) installation for controlling a UK SkyHD box with Google home/Mini via a Raspberry Pi.  
+
+It contains all the steps and files necessary to complete the project from end to end.  In order to complete this project you will need:
+Google Home/Mini device (or Google Assistant on your phone will do).
+Raspberry Pi.
+Blank SD card 8Gb for Raspberry Pi.
+SkyHD Box.
+Internet connection.
+
+The project uses the Google Home/Mini assistant to capture your voice command, this is then sent automatically to IFTTT (you will need to set up a free account) which detects certain keyword triggers and then sends commands back to your Raspberry Pi to excecute the remote commands directly to your SkyHD box.  
+
+# No-IP.com
+
+Text here
+
+# IFTTT
+
+Text here
+
+# Raspberry Pi
+
+Text here
+
+# Install sky-remote-cli & Python program
+
+Text here
 
 A command line app to send remote control commands to a Sky TV box. Compatible with Sky+HD and Sky Q.
 
