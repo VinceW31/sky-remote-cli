@@ -4,9 +4,13 @@ This project is still under development.
 
 This project is a fully documented (for basic user easy install) installation for controlling a UK SkyHD box with Google home/Mini via a Raspberry Pi.  
 
-It contains all the steps and files necessary to complete the project from end to end.  In order to complete this project you will need the following: Google Home/Mini device (or Google Assistant on your phone will do), Raspberry Pi, Blank 8 Gb SD card (for Raspberry Pi) and a SkyHD Box.
+It contains all the steps and files necessary to complete the project from end to end.  In order to complete this project you will need the following: Google Home/Mini device (or Google Assistant on your phone will do), Raspberry Pi, Blank 8 Gb Micro SD card (for Raspberry Pi 3) and of course, a SkyHD Box.
 
-The project uses the Google Home/Mini assistant to capture your voice command, this is then sent automatically to IFTTT (you will need to set up a free account) which detects certain keyword triggers and then sends commands back to your Raspberry Pi to excecute the remote commands directly to your SkyHD box.  
+The project uses the Google Home/Mini assistant to capture your voice command, this is then sent automatically by Google Home/Mini to IFTTT (you will need to set up a free account) which detects certain keyword triggers and then sends commands back to your Raspberry Pi to compile into a macro thats sent directly to your SkyHD box.  
+
+# What it doesnt do
+
+It does not control your TV functions like on/off and volume/mute, these are IR TV functions that your Sky Remote can control, but they are not Sky box functions.  You will need an IR blaster device like a Harmony Hub or a Broadlink RM3 to perform these functions directly from Google Assistant.  This is possible to do but is not covered in this project.
 
 # No-IP.com
 
@@ -18,7 +22,9 @@ Text here
 
 # Raspberry Pi
 
-Text here
+I used a Raspberry Pi 3 for development and testing, other versions should also work fine but I've not tested them.  The Raspberry Pi can be used via SSH if you know how to do this, but if your unsure then just connect the HDMI port to a TV or suitable monitor and plug in a USB keyboard and mouse.  Dont forget to plug in an ethernet cable for internet connectivity or use a WiFi dongle. 
+
+Use your Windows PC or Mac to write a Raspian image to the 8Gb Micro SD card
 
 # Install sky-remote-cli & Python program
 
