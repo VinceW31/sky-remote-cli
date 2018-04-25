@@ -22,9 +22,11 @@ Text here
 
 # Raspberry Pi
 
-I used a Raspberry Pi 3 for development and testing, other versions should also work fine but I've not tested them.  The Raspberry Pi can be used via SSH if you know how to do this, but if your unsure then just connect the HDMI port to a TV or suitable monitor and plug in a USB keyboard and mouse.  Dont forget to plug in an ethernet cable for internet connectivity or use a WiFi dongle. 
+I used a Raspberry Pi 3 for development and testing, other versions should also work fine but I've not tested them.  The Raspberry Pi can be used via SSH if you know how to do this, but if your unsure then just connect the HDMI port to a TV or suitable monitor and plug in a USB keyboard and mouse.  Dont forget to plug in an ethernet cable for internet connectivity or use a WiFi dongle. Of course, you will also need a 5v Power Supply with a micro USB connector for powering the Raspberry Pi.
 
-Use your Windows PC or Mac to write a Raspian image to the 8Gb Micro SD card
+Use your Windows PC or Mac to write a Raspian image to the 8Gb Micro SD card by following these steps:
+
+
 
 # Install sky-remote-cli & Python program
 
